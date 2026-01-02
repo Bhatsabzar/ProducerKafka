@@ -25,4 +25,10 @@ public List<Producer> getAll(Producer producer){
 }
 
 
+
+@GetMapping("/check")
+public String Fun(){
+    return "Welcome to Git World";
+}
+
 }
